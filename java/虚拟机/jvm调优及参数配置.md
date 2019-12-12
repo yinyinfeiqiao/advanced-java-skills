@@ -1,4 +1,4 @@
-##JVM参数   如 -Xmx10240m -Xms10240m -Xmn5120m -XXSurvivorRatio=3  -Xss128k
+## JVM参数   如 -Xmx10240m -Xms10240m -Xmn5120m -XXSurvivorRatio=3  -Xss128k
 
 * 1. -Xmx：最大堆大小
 * 2. -Xms：初始堆大小
