@@ -1,12 +1,12 @@
 ```mermaid
-%% 定义颜色样式类
-classDef rootStyle fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff,font-size:16px;
-classDef categoryStyle fill:#4dabf7,stroke:#1864ab,stroke-width:2px,color:#fff;
-classDef impactStyle fill:#ffc9c9,stroke:#e03131,stroke-width:1px,color:#333;
-classDef benefitStyle fill:#b2f2bb,stroke:#2b8a3e,stroke-width:1px,color:#333;
-classDef pressureStyle fill:#ffd8a8,stroke:#e67700,stroke-width:1px,color:#333;
-
 mindmap
+  %% 定义样式 (必须放在 mindmap 内部)
+  classDef rootStyle fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff,font-size:16px;
+  classDef categoryStyle fill:#4dabf7,stroke:#1864ab,stroke-width:2px,color:#fff;
+  classDef impactStyle fill:#ffc9c9,stroke:#e03131,stroke-width:1px,color:#333;
+  classDef benefitStyle fill:#b2f2bb,stroke:#2b8a3e,stroke-width:1px,color:#333;
+  classDef pressureStyle fill:#ffd8a8,stroke:#e67700,stroke-width:1px,color:#333;
+
   root((伊朗局势升级)):::rootStyle
     能源产业链:::categoryStyle
       原油 & 天然气
